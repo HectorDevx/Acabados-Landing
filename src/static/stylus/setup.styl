@@ -1,0 +1,59 @@
+// --------------------------Project Setup
+// -------------Variables
+$white = #FFFBF2
+$cream = #E7E3DA
+$light-brown = #B87040
+$brown = #814225
+$black = #393834
+
+$primary-font = 'Crimson Text', serif
+$secondary-font = 'Open Sans', sans-serif
+$bold = 700
+$semibold = 600
+$regular = 400
+
+$large-space = 80px
+$space = 16px
+
+
+// -------------Mixins
+
+mixin-titles($size, $weight)
+  font-family: $primary-font
+  font-weight: $weight
+  font-size: $size
+  line-height: 1.2em
+
+mixin-text($size, $weight)
+  font-family: $secondary-font
+  font-weight: $weight
+  font-size: $size
+  line-height: 1.2em
+
+
+// -------------Tipography
+
+h1
+  mixin-titles(65px, $semibold)
+
+h2
+  mixin-titles(44px, $semibold)
+
+h3
+  mixin-titles(34px, $regular)
+
+h4
+  mixin-text(24px, $bold)
+
+h5
+  mixin-text(24px, $regular)
+
+h6
+  mixin-titles(24px, $regular)
+
+p
+  mixin-text(18px, $regular)
+
+a
+  mixin-titles(18px, $semibold)
+  text-transform: uppercase
