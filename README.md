@@ -43,7 +43,11 @@ npm start
 
 ## Diseño de Marca e Interfaz de usuario 🎨
 
-- [Figma Design](https://www.figma.com/file/woJcPZE63zprwVvKhMX8jk/AKB2?node-id=134%3A2) - Diseño de Interfaz de usuario
+![Cover Design](https://mir-cdn.behance.net/v1/rendition/project_modules/fs/d30872100458373.5f091f58268c2.png)
+
+- [Diseño en Figma](https://www.figma.com/file/woJcPZE63zprwVvKhMX8jk/AKB2?node-id=134%3A2) - Diseño de Interfaz de usuario
+- [Proyecto de Behance](https://www.behance.net/gallery/100458373/Acabados-Integrales-Branding-Design-Web-Development?) - Proyecto de Diseño
+
 
 
 ## Autores ✒️
